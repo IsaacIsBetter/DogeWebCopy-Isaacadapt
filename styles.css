@@ -1,1 +1,159 @@
+body{
+  display: flex;
+  flex-direction: column; 
+  margin: 0;
+}
+
+.Top{
+  background-color: #1F2937;
+  color: white;
+  padding-bottom: 100px;
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 35px 70px 35px;
+  background-color: #1F2937;
+}
+
+.Logo{
+  width: 84px;
+  height: 84px;
+  margin-left: 30px;
+}
+
+.Links{
+  margin-right: 100px;
+  font-size: 20px;
+}
+
+.Links a {
+  gap: 10px;
+  margin: 2px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.Links a:hover{
+  outline: 2px solid white;
+  border-radius: 5px;
+}
+
+.Begin{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  gap: 70px;
+  background-color: #1F2937;
+}
+
+.Begin-text{
+  font-size: 28px;
+  margin: 0;
+}
+
+.Begin-text h1{
+  margin: 0;
+}
+
+.Begin-text p {
+  font-size: 18px;
+  color: lightgray;
+}
+
+.signup1 {
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Begin-Pic{
+  width: 500px;
+  height: 350px;
+  background-color: white;
+}
+
+.Types-Text h3{
+  text-align: center;
+  font-size: 25px;
+}
+
+.Types-Pics {
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  gap: 40px;
+}
+  
+
+.Dog-Pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Dog-Pic1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid #3882f6;
+  object-fit: cover;
+}
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+.quote-body{
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+  background-color: #E5E7EB;
+}
+
+.quote-person {
+  text-align: right;
+  margin-right: 250px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.news{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #1F2937;
+  color: white;
+  padding: 90px;
+  gap: 500px;
+}
+
+.News-text1{
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.signup2{
+  width: 130px;
+  border:2px solid #fff;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
 
